@@ -5,7 +5,7 @@
 ## Author: SkylineHero
 ## OptionalDeps: LibSharedMedia-3.0, LibSharedMedia-2.0, SharedMediaLib
 ## X-Category: Audio & Video
-## X-eMail: addons.wow (a) j-labs o tech
+## X-eMail: addonso wow (a) j-labs o tech
 ## LoadOnDemand: 0
 
 #@no-lib-strip@
