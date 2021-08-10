@@ -2,12 +2,10 @@
 ## Title: SharedMediaAdditionalSounds
 ## Notes: Inserts additionnal sounds into SharedMediaLib's storage.
 ## Version: 9.0.5
-## Author: Stassart
+## Author: SkylineHero
 ## OptionalDeps: LibSharedMedia-3.0, LibSharedMedia-2.0, SharedMediaLib
 ## X-Category: Audio & Video
-## X-eMail: addon (a) stassart o org
-## X-Website: http://www.curse.com/addons/wow/sharedmediaadditionalsounds
-## X-Credits: AllInOneMighty
+## X-eMail: addons.wow (a) j-labs o tech
 ## LoadOnDemand: 0
 
 #@no-lib-strip@
