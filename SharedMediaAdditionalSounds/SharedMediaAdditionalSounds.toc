@@ -1,4 +1,4 @@
-## Interface: 90005
+## Interface: 90105
 ## Title: SharedMediaAdditionalSounds
 ## Notes: Inserts additionnal sounds into SharedMediaLib's storage.
 ## Version: 9.0.5
