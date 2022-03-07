@@ -1,11 +1,11 @@
-## Interface: 90105
+## Interface: 90200
 ## Title: SharedMediaAdditionalSounds
 ## Notes: Inserts additionnal sounds into SharedMediaLib's storage.
-## Version: 9.0.5
+## Version: 9.2.0
 ## Author: SkylineHero, Trelis @ Proudmoore, stassart @ curse
 ## OptionalDeps: LibSharedMedia-3.0, LibSharedMedia-2.0, SharedMediaLib
 ## X-Category: Audio & Video
-## X-eMail: addonso wow (a) j-labs o tech
+## X-eMail: wowaddons (a) j-labs o tech
 ## LoadOnDemand: 0
 
 #@no-lib-strip@
