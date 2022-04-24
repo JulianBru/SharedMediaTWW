@@ -1,7 +1,6 @@
 --[[
 
-Author: Trelis @ Proudmoore
-stassart @ curse
+Author: SkylineHero, Trelis @ Proudmoore and stassart @ curse
 
 Original version SharedMediaAdditionalFonts author: pb_ee1
 
