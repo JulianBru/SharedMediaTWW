@@ -25,7 +25,7 @@ jobs:
           #recursive: true
           #dest: SharedMedia.zip
       - name: Create Release Folder
-        run: rsync -arv --exclude='.git/' --exclude='.github/' --exclude='.gitignore' . ./release
+        run: rsync -arv --exclude='.git/' --exclude='.github/' --exclude='release.yml' --exclude='.github' --exclude='.gitignore' . ./release
       - name: Switch to Release Folder
         run: |
           cd release
