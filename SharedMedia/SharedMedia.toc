@@ -1,7 +1,7 @@
-## Interface: 90100
+## Interface: 100000
 ## Title: SharedMedia
 ## Notes: Inserts some media into LibSharedMedia's storage.
-## Version: 3.1.0-191
+## Version: 10.0.0
 ## Author: Elkano
 ## X-Category: Miscellaneous
 
