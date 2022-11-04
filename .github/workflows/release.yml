@@ -18,12 +18,12 @@ jobs:
   zip-files:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: vimtor/action-zip@v1
-        with:
-          files: JulianBru/SharedMediaDF
-          recursive: true
-          dest: SharedMedia.zip
+      - uses: actions/checkout@v3
+      #- uses: vimtor/action-zip@v1
+       # with:
+          #files: JulianBru/SharedMediaDF
+          #recursive: true
+          #dest: SharedMedia.zip
       - name: Create Release Folder
         run: rsync -arv --exclude='.git/' --exclude='.github/' --exclude='.gitignore' . ./release
       - name: Switch to Release Folder
@@ -31,7 +31,7 @@ jobs:
           cd release
           ls -la
       - name: Bump version and push tag
-        uses: anothrNick/github-tag-action@master
+        uses: JulianBru/github-tag-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_OWNER: JulianBru
