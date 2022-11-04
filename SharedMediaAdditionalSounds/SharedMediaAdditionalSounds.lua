@@ -41,4 +41,3 @@ SharedMediaAdditionalSounds:Register("sound", "Bellow Out", [[Sound\Doodad\Bello
 SharedMediaAdditionalSounds:Register("sound", "Cannon", [[Sound\Doodad\Cannon01_BlastA.ogg]])
 SharedMediaAdditionalSounds:Register("sound", "Firework 3", [[Sound\Doodad\G_FireworkBoomGeneral3.ogg]])
 SharedMediaAdditionalSounds:Register("sound", "Alarm 2", [[Sound\Interface\AlarmClockWarning2.ogg]])
-

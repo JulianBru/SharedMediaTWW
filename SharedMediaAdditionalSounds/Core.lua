@@ -1,6 +1,6 @@
 --[[
 
-Author: SkylineHero, Trelis @ Proudmoore and stassart @ curse
+Author: SkylineHero (julianBru)
 
 Original version SharedMediaAdditionalFonts author: pb_ee1
 
@@ -73,4 +73,3 @@ end
 SharedMediaAdditionalSounds.frame = CreateFrame("Frame")
 SharedMediaAdditionalSounds.frame:SetScript("OnEvent", SharedMediaAdditionalSounds.OnEvent)
 SharedMediaAdditionalSounds.frame:RegisterEvent("ADDON_LOADED")
-

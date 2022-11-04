@@ -1,8 +1,8 @@
-## Interface: 90200
+## Interface: 100000
 ## Title: SharedMediaAdditionalSounds
 ## Notes: Inserts additionnal sounds into SharedMediaLib's storage.
-## Version: 9.2.0
-## Author: SkylineHero, Trelis @ Proudmoore, stassart @ curse
+## Version: 10.0.0
+## Author: SkylineHero (JulianBru)
 ## OptionalDeps: LibSharedMedia-3.0, LibSharedMedia-2.0, SharedMediaLib
 ## X-Category: Audio & Video
 ## X-API: REST/ODATA2
@@ -12,7 +12,7 @@
 ## X-Website: https://github.com/JulianBru/SharedMediaAdditionalSoundsSL
 ## X-Update: https://github.com/JulianBru/SharedMediaAdditionalSoundsSL/releases/latest
 ## X-ZIP: 7zip
-## X-XML: XML1
+## X-XML: XMLv1
 ## X-eMail: wowaddons (a) j-labs o tech
 ## LoadOnDemand: 0
 
@@ -22,4 +22,3 @@ embeds.xml
 
 Core.lua
 SharedMediaAdditionalSounds.lua
-
