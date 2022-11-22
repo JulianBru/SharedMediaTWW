@@ -7,30 +7,31 @@ local koKR, ruRU, zhCN, zhTW, western = LSM.LOCALE_BIT_koKR, LSM.LOCALE_BIT_ruRU
 local MediaType_BACKGROUND = LSM.MediaType.BACKGROUND
 local MediaType_BORDER = LSM.MediaType.BORDER
 local MediaType_FONT = LSM.MediaType.FONT
-local MediaType_STATUSBAR = LSM.MediaType.STATUSBAR
+local MediaType_STATUSBAR = LSM.MediaType.STATUSBAR 
 
--- -----
--- BACKGROUND
--- -----
+-- ----- 
+-- BACKGROUND 
+-- ----- 
 LSM:Register(MediaType_BACKGROUND, "Moo", [[Interface\Addons\SharedMedia\background\moo.tga]])
 LSM:Register(MediaType_BACKGROUND, "Bricks", [[Interface\Addons\SharedMedia\background\bricks.tga]])
 LSM:Register(MediaType_BACKGROUND, "Brushed Metal", [[Interface\Addons\SharedMedia\background\brushedmetal.tga]])
 LSM:Register(MediaType_BACKGROUND, "Copper", [[Interface\Addons\SharedMedia\background\copper.tga]])
 LSM:Register(MediaType_BACKGROUND, "Smoke", [[Interface\Addons\SharedMedia\background\smoke.tga]])
-LSM:Register(MediaType_BACKGROUND, "Naowh Arrow", [[Interface\Addons\SharedMedia_MyMedia\background\NaowhArrow.tga]])
-LSM:Register(MediaType_BACKGROUND, "Naowh Glow", [[Interface\Addons\SharedMedia_MyMedia\background\NaowhGlow.tga]])
-LSM:Register(MediaType_BACKGROUND, "Naowh Arrow Left", [[Interface\Addons\SharedMedia_MyMedia\background\NaowhArrowLeft.tga]])
-LSM:Register(MediaType_BACKGROUND, "Naowh Arrow Right", [[Interface\Addons\SharedMedia_MyMedia\background\NaowhArrowRight.tga]])
-LSM:Register(MediaType_BACKGROUND, "Naowh Arrow Glow", [[Interface\Addons\SharedMedia_MyMedia\background\arrow_glow.tga]])
+LSM:Register(MediaType_BACKGROUND, "Naowh Arrow", [[Interface\Addons\SharedMedia\background\NaowhArrow.tga]])
+LSM:Register(MediaType_BACKGROUND, "Naowh Glow", [[Interface\Addons\SharedMedia\background\NaowhGlow.tga]])
+LSM:Register(MediaType_BACKGROUND, "Naowh Arrow Left", [[Interface\Addons\SharedMedia\background\NaowhArrowLeft.tga]])
+LSM:Register(MediaType_BACKGROUND, "Naowh Arrow Right", [[Interface\Addons\SharedMedia\background\NaowhArrowRight.tga]])
+LSM:Register(MediaType_BACKGROUND, "Naowh Arrow Glow", [[Interface\Addons\SharedMedia\background\arrow_glow.tga]])
 
--- -----
---  BORDER
--- ----
+-- ----- 
+--  BORDER 
+-- ---- 
 LSM:Register(MediaType_BORDER, "RothSquare", [[Interface\Addons\SharedMedia\border\roth.tga]])
 LSM:Register(MediaType_BORDER, "SeerahScalloped", [[Interface\Addons\SharedMedia\border\SeerahScalloped.blp]])
-LSM:Register(MediaType_BORDER, "Naowh1", [[Interface\Addons\SharedMedia_MyMedia\border\Naowh1.tga]])
-LSM:Register(MediaType_BORDER, "Naowh2", [[Interface\Addons\SharedMedia_MyMedia\border\Naowh2.tga]])
-LSM:Register(MediaType_BORDER, "Naowh3", [[Interface\Addons\SharedMedia_MyMedia\border\Naowh3.tga]])
+LSM:Register(MediaType_BORDER, "Naowh1", [[Interface\Addons\SharedMedia\border\Naowh1.tga]])
+LSM:Register(MediaType_BORDER, "Naowh2", [[Interface\Addons\SharedMedia\border\Naowh2.tga]])
+LSM:Register(MediaType_BORDER, "Naowh3", [[Interface\Addons\SharedMedia\border\Naowh3.tga]])
+
 -- -----
 --   FONT
 -- -----
@@ -55,12 +56,96 @@ LSM:Register(MediaType_FONT, "SF Wonder Comic",				[[Interface\Addons\SharedMedi
 LSM:Register(MediaType_FONT, "swf!t",						[[Interface\Addons\SharedMedia\fonts\swf!t\SWF!T___.ttf]])
 LSM:Register(MediaType_FONT, "WenQuanYi Zen Hei",			[[Interface\Addons\SharedMedia\fonts\wen_quan_yi_zen_hei\wqy-zenhei.ttf]],					koKR + ruRU + zhCN + zhTW + western)
 LSM:Register(MediaType_FONT, "Yellowjacket",				[[Interface\Addons\SharedMedia\fonts\yellowjacket\yellow.ttf]])
-LSM:Register("font", "GothamNarrowUltra", [[Interface\Addons\SharedMedia_MyMedia\font\GothamNarrowUltra.ttf]]) 
-LSM:Register("font", "Naowh", [[Interface\Addons\SharedMedia_MyMedia\font\Naowh.ttf]]) 
+LSM:Register("font", "Naowh", [[Interface\Addons\SharedMedia\font\Naowh.ttf]],					ruRU + western) 
+LSM:Register("font", "GothamNarrowUltra", [[Interface\Addons\SharedMedia\font\GothamNarrowUltra.ttf]],					ruRU + western)
 
 -- -----
 --   SOUND
 -- -----
+LSM:Register("sound", "|cff0091ed1 -Naowh|r", [[Interface\Addons\SharedMedia\sound\1 -Naowh.ogg]])
+LSM:Register("sound", "|cff0091ed2 -Naowh|r", [[Interface\Addons\SharedMedia\sound\2 -Naowh.ogg]])
+LSM:Register("sound", "|cff0091ed3 -Naowh|r", [[Interface\Addons\SharedMedia\sound\3 -Naowh.ogg]])
+LSM:Register("sound", "|cff0091ed4 -Naowh|r", [[Interface\Addons\SharedMedia\sound\4 -Naowh.ogg]])
+LSM:Register("sound", "|cff0091ed5 -Naowh|r", [[Interface\Addons\SharedMedia\sound\5 -Naowh.ogg]])
+LSM:Register("sound", "|cff0091ed6 -Naowh|r", [[Interface\Addons\SharedMedia\sound\6 -Naowh.ogg]])
+LSM:Register("sound", "|cff0091ed7 -Naowh|r", [[Interface\Addons\SharedMedia\sound\7 -Naowh.ogg]])
+LSM:Register("sound", "|cff0091ed8 -Naowh|r", [[Interface\Addons\SharedMedia\sound\8 -Naowh.ogg]])
+LSM:Register("sound", "|cff0091ed9 -Naowh|r", [[Interface\Addons\SharedMedia\sound\9 -Naowh.ogg]])
+LSM:Register("sound", "|cff0091ed10 -Naowh|r", [[Interface\Addons\SharedMedia\sound\10 -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edAdd -Naowh|r", [[Interface\Addons\SharedMedia\sound\Add -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edAdds -Naowh|r", [[Interface\Addons\SharedMedia\sound\Adds -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edAoE -Naowh|r", [[Interface\Addons\SharedMedia\sound\AoE -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edAvoid -Naowh|r", [[Interface\Addons\SharedMedia\sound\Avoid -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edBait -Naowh|r", [[Interface\Addons\SharedMedia\sound\Bait -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edBehind -Naowh|r", [[Interface\Addons\SharedMedia\sound\Behind -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edBloodlust -Naowh|r", [[Interface\Addons\SharedMedia\sound\Bloodlust -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edBuff -Naowh|r", [[Interface\Addons\SharedMedia\sound\Buff -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edCC -Naowh|r", [[Interface\Addons\SharedMedia\sound\CC -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edClear In -Naowh|r", [[Interface\Addons\SharedMedia\sound\Clear In -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edClear -Naowh|r", [[Interface\Addons\SharedMedia\sound\Clear -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edCollect -Naowh|r", [[Interface\Addons\SharedMedia\sound\Collect -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edCombat -Naowh|r", [[Interface\Addons\SharedMedia\sound\Combat -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edDance -Naowh|r", [[Interface\Addons\SharedMedia\sound\Dance -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edDebuff -Naowh|r", [[Interface\Addons\SharedMedia\sound\Debuff -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edDispell -Naowh|r", [[Interface\Addons\SharedMedia\sound\Dispell -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edDodge Inc -Naowh|r", [[Interface\Addons\SharedMedia\sound\Dodge Inc -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edDodge -Naowh|r", [[Interface\Addons\SharedMedia\sound\Dodge -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edDot -Naowh|r", [[Interface\Addons\SharedMedia\sound\Dot -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edFixate -Naowh|r", [[Interface\Addons\SharedMedia\sound\Fixate -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edFrontal -Naowh|r", [[Interface\Addons\SharedMedia\sound\Frontal -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edHide -Naowh|r", [[Interface\Addons\SharedMedia\sound\Hide -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edHigh Stacks -Naowh|r", [[Interface\Addons\SharedMedia\sound\High Stacks -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edImmune -Naowh|r", [[Interface\Addons\SharedMedia\sound\Immune -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edIn -Naowh|r", [[Interface\Addons\SharedMedia\sound\In -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edInc -Naowh|r", [[Interface\Addons\SharedMedia\sound\Inc -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edInside -Naowh|r", [[Interface\Addons\SharedMedia\sound\Inside -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edIntermission -Naowh|r", [[Interface\Addons\SharedMedia\sound\Intermission -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edKick -Naowh|r", [[Interface\Addons\SharedMedia\sound\Kick -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edKnock -Naowh|r", [[Interface\Addons\SharedMedia\sound\Knock -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edLeft -Naowh|r", [[Interface\Addons\SharedMedia\sound\Left -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edLinked -Naowh|r", [[Interface\Addons\SharedMedia\sound\Linked -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edLoS -Naowh|r", [[Interface\Addons\SharedMedia\sound\LoS -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edLostVikings -Naowh|r", [[Interface\Addons\SharedMedia\sound\LongboatRaid.ogg]])
+LSM:Register("sound", "|cff0091edMelee -Naowh|r", [[Interface\Addons\SharedMedia\sound\Melee -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edMove -Naowh|r", [[Interface\Addons\SharedMedia\sound\Move -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edNext -Naowh|r", [[Interface\Addons\SharedMedia\sound\Next -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edNuke -Naowh|r", [[Interface\Addons\SharedMedia\sound\Nuke -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edOrb -Naowh|r", [[Interface\Addons\SharedMedia\sound\Orb -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edOut -Naowh|r", [[Interface\Addons\SharedMedia\sound\Out -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edPersonal -Naowh|r", [[Interface\Addons\SharedMedia\sound\Personal -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edPot -Naowh|r", [[Interface\Addons\SharedMedia\sound\Pot -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edPull -Naowh|r", [[Interface\Addons\SharedMedia\sound\Pull -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edPush -Naowh|r", [[Interface\Addons\SharedMedia\sound\Push -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edRanged -Naowh|r", [[Interface\Addons\SharedMedia\sound\Ranged -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edReady -Naowh|r", [[Interface\Addons\SharedMedia\sound\Ready -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edReflect -Naowh|r", [[Interface\Addons\SharedMedia\sound\Reflect -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edRight -Naowh|r", [[Interface\Addons\SharedMedia\sound\Right -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edRun -Naowh|r", [[Interface\Addons\SharedMedia\sound\Run -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edShield -Naowh|r", [[Interface\Addons\SharedMedia\sound\Shield -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edSoak -Naowh|r", [[Interface\Addons\SharedMedia\sound\Soak -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edSpread -Naowh|r", [[Interface\Addons\SharedMedia\sound\Spread -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edStack -Naowh|r", [[Interface\Addons\SharedMedia\sound\Stack -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edStop -Naowh|r", [[Interface\Addons\SharedMedia\sound\Stop -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edStopcast -Naowh|r", [[Interface\Addons\SharedMedia\sound\Stopcast -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edSwitch -Naowh|r", [[Interface\Addons\SharedMedia\sound\Switch -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edTaunt -Naowh|r", [[Interface\Addons\SharedMedia\sound\Taunt -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edTotem -Naowh|r", [[Interface\Addons\SharedMedia\sound\Totem -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edTrap -Naowh|r", [[Interface\Addons\SharedMedia\sound\Trap -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edTurn -Naowh|r", [[Interface\Addons\SharedMedia\sound\Turn -Naowh.ogg]])
+LSM:Register("sound", "|cff0091edLorgok Boss Dmg -Naowh|r", [[Interface\Addons\SharedMedia\sound\Lorgok_BossDmg.ogg]])
+LSM:Register("sound", "|cff0091edLorgok Burp -Naowh|r", [[Interface\Addons\SharedMedia\sound\Lorgok_Burp.ogg]])
+LSM:Register("sound", "|cff0091edLorgok Doesnt Happen -Naowh|r", [[Interface\Addons\SharedMedia\sound\Lorgok_DoesntHappen.ogg]])
+LSM:Register("sound", "|cff0091edLorgok Ejaculate -Naowh|r", [[Interface\Addons\SharedMedia\sound\Lorgok_Ejaculate.ogg]])
+LSM:Register("sound", "|cff0091edLorgok Help -Naowh|r", [[Interface\Addons\SharedMedia\sound\Lorgok_Help.ogg]])
+LSM:Register("sound", "|cff0091edLorgok Noooo -Naowh|r", [[Interface\Addons\SharedMedia\sound\Lorgok_Noooo.ogg]])
+LSM:Register("sound", "|cff0091edLorgok Oh What -Naowh|r", [[Interface\Addons\SharedMedia\sound\Lorgok_OhWhat.ogg]])
+LSM:Register("sound", "|cff0091edLorgok Ok Bro -Naowh|r", [[Interface\Addons\SharedMedia\sound\Lorgok_OkBro.ogg]])
+LSM:Register("sound", "|cff0091edLorgok Oribole -Naowh|r", [[Interface\Addons\SharedMedia\sound\Lorgok_Oribole.ogg]])
+LSM:Register("sound", "|cff0091edLorgok Stupid Dude -Naowh|r", [[Interface\Addons\SharedMedia\sound\Lorgok_StupidDude.ogg]])
+LSM:Register("sound", "|cff0091edLorgok WTF -Naowh|r", [[Interface\Addons\SharedMedia\sound\Lorgok_WTF.ogg]])
+LSM:Register("sound", "|cff0091edLorgok Yeah -Naowh|r", [[Interface\Addons\SharedMedia\sound\Lorgok_Yeah.ogg]])
+LSM:Register("sound", "|cff0091edLorgok Boss Dmg -Naowh|r", [[Interface\Addons\SharedMedia\sound\Lorgok_BossDmg.ogg]])
+
 
 -- -----
 --   STATUSBAR
