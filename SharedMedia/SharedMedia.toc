@@ -1,8 +1,8 @@
-## Interface: 100000
+## Interface: 100002
 ## Title: SharedMedia
 ## Notes: Inserts some media into LibSharedMedia's storage.
-## Version: 10.0.0
-## Author: SkylineHero (JulianBru)
+## Version: 10.0.2
+## Author: CheersItsJulian
 ## OptionalDeps: LibStub, LibSharedMedia-3.0
 ## X-Category: Audio & Video
 ## X-API: REST/ODATA2
