@@ -1,4 +1,5 @@
 # GitHub Workflow
-/.github
+.github/
+#.pkgmeta
 # IDE
-/.vscode
+.vscode/
