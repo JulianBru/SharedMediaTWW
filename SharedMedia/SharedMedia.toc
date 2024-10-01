@@ -1,7 +1,8 @@
-## Interface: 100002
+## Interface: 1110002
 ## Title: SharedMedia
 ## Notes: Inserts some media into LibSharedMedia's storage.
 ## Version: 10.0.2
+## IconTexture: Interface\ICONS\INV_10_Inscription2_Scroll3_Color1.tga
 ## Author: CheersItsJulian
 ## OptionalDeps: LibStub, LibSharedMedia-3.0
 ## X-Category: Audio & Video

@@ -58,6 +58,9 @@ LSM:Register(MediaType_FONT, "WenQuanYi Zen Hei",			[[Interface\Addons\SharedMed
 LSM:Register(MediaType_FONT, "Yellowjacket",				[[Interface\Addons\SharedMedia\font\yellowjacket\yellow.ttf]])
 LSM:Register("font", "Naowh", [[Interface\Addons\SharedMedia\font\Naowh.ttf]],					ruRU + western) 
 LSM:Register("font", "GothamNarrowUltra", [[Interface\Addons\SharedMedia\font\GothamNarrowUltra.ttf]],					ruRU + western)
+LSM:Register(MediaType_FONT, "Raleway Regular",					[[Interface\Addons\SharedMedia\font\Raleway-Regular.ttf]])
+LSM:Register(MediaType_FONT, "Raleway Medium",					[[Interface\Addons\SharedMedia\font\Raleway-Medium.ttf]])
+LSM:Register(MediaType_FONT, "Raleway SemiBold",					[[Interface\Addons\SharedMedia\font\Raleway-SemiBold.ttf]])
 
 -- -----
 --   SOUND
