@@ -1,4 +1,4 @@
-## Interface: 1110002
+## Interface: 110002
 ## Title: SharedMedia
 ## Notes: Inserts some media into LibSharedMedia's storage.
 ## Version: 10.0.2
